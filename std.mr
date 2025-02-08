@@ -40,6 +40,8 @@ pub fn main(argc: usize, argv: &&u8) {
     print_usize(meow());
     print_newline();
 
+    while (true) 3;
+
     print_str("main = \0");
     print_usize_hex(main as &void as usize);
     print_newline();

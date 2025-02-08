@@ -1,0 +1,7 @@
+use "./std.mr"::{b, c::d};
+
+@callconv(c)
+fn identifier() -> &str = "abcd \n b \n d";
+fn str() -> bool = 3 + 4;
+
+fn a(v:i32) -> i32 = asm volatile ("hlt");

@@ -7,7 +7,10 @@
       "title": "Mira",
       "scope": "source.mira",
       "file-types": [
-        "mira"
+        "mr"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
       ],
       "injection-regex": "^mira$",
       "class-name": "TreeSitterMira"
