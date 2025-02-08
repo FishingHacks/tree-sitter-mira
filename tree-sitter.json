@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "mira",
+      "camelcase": "Mira",
+      "title": "Mira",
+      "scope": "source.mira",
+      "file-types": [
+        "mira"
+      ],
+      "injection-regex": "^mira$",
+      "class-name": "TreeSitterMira"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "The Treesitter parser for the Mira programming language",
+    "authors": [
+      {
+        "name": "FishingHacks"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/FishingHacks/tree-sitter-mira.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
